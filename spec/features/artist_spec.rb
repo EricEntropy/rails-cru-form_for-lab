@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+system('clear')
 describe 'navigate artist pages' do
   before do
     @artist = Artist.create(name: "My Artist", bio: "My artist bio")
